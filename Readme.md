@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/WindowsApplication1/Form1.cs) (VB: [Form1.vb](./VB/WindowsApplication1/Form1.vb))
+* [GridViewSearch.cs](./CS/WindowsApplication1/GridViewSearch.cs) (VB: [GridViewSearch.vb](./VB/WindowsApplication1/GridViewSearch.vb))
+* [Program.cs](./CS/WindowsApplication1/Program.cs) (VB: [Program.vb](./VB/WindowsApplication1/Program.vb))
+<!-- default file list end -->
 # How to locate a row by display text
 
 
