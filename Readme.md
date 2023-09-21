@@ -3,20 +3,31 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2147)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# WinForms Data Grid - Locate a data row by display text
+
+Use the following methods to find a data row by display text or cell value:
+
+* [LocateByDisplayText](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.Views.Base.ColumnView.LocateByDisplayText(System.Int32-DevExpress.XtraGrid.Columns.GridColumn-System.String))
+* [LocateByValue](https://docs.devexpress.com/WindowsForms/devexpress.xtragrid.views.base.columnview.locatebyvalue.overloads)
+
+This example implements a custom algorithm that searches for a data row based on a specific condition:
+
+![WinForms Data Grid - Locate a data row by display text](https://raw.githubusercontent.com/DevExpress-Examples/how-to-locate-a-row-by-display-text-e2147/13.1.4%2B/media/winforms-grid-search-rows.gif)
+
+
+## Files to Review
 
 * [Form1.cs](./CS/WindowsApplication1/Form1.cs) (VB: [Form1.vb](./VB/WindowsApplication1/Form1.vb))
 * [GridViewSearch.cs](./CS/WindowsApplication1/GridViewSearch.cs) (VB: [GridViewSearch.vb](./VB/WindowsApplication1/GridViewSearch.vb))
-* [Program.cs](./CS/WindowsApplication1/Program.cs) (VB: [Program.vb](./VB/WindowsApplication1/Program.vb))
-<!-- default file list end -->
-# How to locate a row by display text
 
 
-<p>Generally, the following methods can be used to find a necessary row in the GridView:<br />
-<a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraGridViewsBaseColumnView_LocateByDisplayTexttopic">LocateByDisplayText</a><br />
-<a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraGridViewsBaseColumnView_LocateByValuetopic">LocateByValue</a></p><p>However, there can be a situation when you need to perform a custom algorithm for finding a necessary row. For example, if you want to find all rows whose values contain a specific substring. In this case, you need to traverse through all rows manually, as described in the <a href="https://www.devexpress.com/Support/Center/p/A1245">How to traverse grid rows in their visible order</a> Knowledge Base article.</p><p>This example demonstrates this approach in action.</p>
+## Documentation
 
-<br/>
+* [Traversing Rows](https://docs.devexpress.com/WindowsForms/3484/controls-and-libraries/data-grid/views/grid-view/rows#traversing-rows)
+* [Working with Groups in Code](https://docs.devexpress.com/WindowsForms/1967/controls-and-libraries/data-grid/grouping/working-with-groups-in-code)
 
 
+## See Also
+
+* [How to traverse grid rows in their visible order](https://supportcenter.devexpress.com/ticket/details/a1245/how-to-traverse-grid-rows-in-their-visible-order)
