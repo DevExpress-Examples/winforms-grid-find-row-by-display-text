@@ -14,7 +14,7 @@ Use the following methods to find a data row by display text or cell value:
 
 This example implements a custom algorithm that searches for a data row based on a specific condition:
 
-![WinForms Data Grid - Locate a data row by display text](https://raw.githubusercontent.com/DevExpress-Examples/how-to-locate-a-row-by-display-text-e2147/13.1.4%2B/media/winforms-grid-search-rows.gif)
+![WinForms Data Grid - Locate a data row by display text](media/winforms-grid-search-rows.gif)
 
 
 ## Files to Review
@@ -39,3 +39,4 @@ This example implements a custom algorithm that searches for a data row based on
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
