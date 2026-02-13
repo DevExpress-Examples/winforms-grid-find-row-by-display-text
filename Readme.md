@@ -33,7 +33,7 @@ This example implements a custom algorithm that searches for a data row based on
 
 * [How to traverse grid rows in their visible order](https://supportcenter.devexpress.com/ticket/details/a1245/how-to-traverse-grid-rows-in-their-visible-order)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-grid-find-row-by-display-text&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-grid-find-row-by-display-text&~~~was_helpful=no)
 
